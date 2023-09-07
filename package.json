@@ -1,0 +1,19 @@
+{
+  "name": "react-stuff",
+  "version": "1.0.0",
+  "description": "Ashish",
+  "main": "index.js",
+  "scripts": {
+    "test": "ahs"
+  },
+  "keywords": [
+    "ke"
+  ],
+  "author": "ashish",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.29",
+    "tailwindcss": "^3.3.3"
+  }
+}
