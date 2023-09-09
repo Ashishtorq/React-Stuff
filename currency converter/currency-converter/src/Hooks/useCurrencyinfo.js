@@ -8,6 +8,10 @@ function useCurrencyinfo() {
     )
       .then((res) => res.jason())
       .then((res) => setData(res));
-      console.log(data)
-  }, []);
+    console.log(data);
+  }, [currency]);
+  console.log(data);
+  return data;
 }
+
+export default useCurrencyinfo;
