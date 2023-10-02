@@ -1,12 +1,15 @@
+import React, { useState } from 'react'
 import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
+  const [name,setName] = useState("ashish");
+  function data (){
+    setName("Singh");
+  }
   return (
-    <>
-    
-    </>
+    <div>
+      <h1>{name}</h1>
+      <button onClick={data}>{name}</button>
+    </div>
   )
 }
 
