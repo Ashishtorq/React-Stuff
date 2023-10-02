@@ -39,7 +39,7 @@ function InputBox({
                 >
                     
                         <option value="usd">
-                            usd
+                            "usd"
                         </option>
                 
                 </select>
