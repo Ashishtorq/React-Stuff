@@ -13,8 +13,8 @@ const App = () => {
     <Fragment>
       <h1 className="data">Datas : {datas}</h1>
       <h1 className="data">name : {name}</h1>
-      <Button onClick={()=>setName(name-1)} variant="outline-primary">Light</Button>{" "}
-      <Button onClick={()=>setData(datas+1)} variant="primary">Light</Button>{" "}
+      <Button onClick={()=>setName(name-1)} variant="outline-primary">++</Button>{" "}
+      <Button onClick={()=>setData(datas+1)} variant="primary">---</Button>{" "}
       
     </Fragment>
   );

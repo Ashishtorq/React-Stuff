@@ -6,11 +6,8 @@ const Student = (props) => {
      <h1>Hello {props.name}</h1>
      <h1>Your Data {props.address}</h1>
      <h1> sirname {props.sirname}</h1>
-
-     
-
     </div>
   )
 }
 
-export default Student
+export default Student;
