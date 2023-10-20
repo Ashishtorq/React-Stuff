@@ -1,0 +1,43 @@
+.todo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;  
+    height: 100%;
+    background-color: #ee9fae;
+}
+
+.input {
+    height: 24px;
+    padding: 7px;
+    border-radius: 5px;
+    border: none;
+}
+
+.form button {
+    height: 38px;
+    border: none;
+    margin-left: 5px;
+    border-radius: 7px;
+    padding-inline: 19px;
+    border: 1px solid pink;
+}
+
+.form button:hover {
+    background-color: rgb(255, 120, 194);
+    cursor: pointer;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list li {
+    height: 24px;
+    margin-bottom: 7px;
+    padding: 6px;
+    border-radius: 5px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(255, 132, 238, 1) 0%, rgba(0, 212, 255, 1) 100%);
+    cursor: pointer;
+}

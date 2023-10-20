@@ -9,13 +9,16 @@ import './App.css'
 //   useEffect(()=>{
 //     console.warn("This is me");
 //   },[datas])
-const st = ['ashish','anil','singh'];
+const st = [
+  {name:'Ashsi', email: "a@gmail.com",contact:9015},
+  {name:'naman', email: "naam@gmail.com",contact:15},
+  {name:'Asi', email: "asfd@gmail.com",contact:9000015},];
 st.map((e)=>{
   console.warn("Name : ", e);
 })
-for(let i=0; i<st.length; i++){
-  console.warn("Name in loop : ",st[i])
-}
+// for(let i=0; i<st.length; i++){
+//   console.warn("Name in loop : ",st[i])
+// }
   return (
     <Fragment>
      
