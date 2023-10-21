@@ -1,0 +1,27 @@
+#root{
+  height:100vh;
+  width: 100vw;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  background-color: palevioletred;
+  width: 51vh;
+  height: 60vh;
+
+}
+.form input{
+  border-radius: 5px;
+    height: 21px;
+    width: 68%;
+    padding: auto;
+    padding-inline: 2px;
+}
+.form button{
+
+}
+.form{
+
+}
