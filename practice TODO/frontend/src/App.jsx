@@ -13,13 +13,7 @@ function App() {
         </form>
         <h2>Tasks To Do</h2>
         <ul>
-          {
-            data.map((d)=>{
-              return (
-                <li key={d.id} >{d.data}</li>
-              )
-            })
-          }
+          
         </ul>
       </div>
     </div>
