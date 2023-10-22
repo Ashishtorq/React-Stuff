@@ -1,23 +1,11 @@
-import { useState } from "react";
-import "./App.css";
-import { fakeData } from "./data";
-function App() {
- const [data, setdata] = useState(fakeData);
+import React from 'react'
+
+const App = () => {
   return (
-    <div className="card">
-      <div>
-        <h1>To Do List</h1>
-        <form className="form">
-          <input type="text" placeholder="Enter your Goal" />
-          <button type="submit">Add Task</button>
-        </form>
-        <h2>Tasks To Do</h2>
-        <ul>
-          
-        </ul>
-      </div>
+    <div>
+      <h1>ehoo</h1>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
